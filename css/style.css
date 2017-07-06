@@ -109,9 +109,10 @@ section img {
   height: auto;
   width: 100px; }
 
-.detalle {
-  background-image: url(../assets/img/fotos-stock/pantalla.png);
-  height: 600px;
-  width: auto; }
+#detalle {
+  background-image: url(../assets/img/fotos-stock/screencapture.png);
+  height: 1600px;
+  background-repeat: no-repeat;
+  margin-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */
