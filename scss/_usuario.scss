@@ -119,7 +119,9 @@ footer {
   .img-experiencia {
     width: 100%;
   }
+
 }
+
 
 .titulo-cuentas, .titulo-experiencia {
   margin-left: 5%;
@@ -131,4 +133,10 @@ footer {
 
 .linea-gris {
   border: 1.5px solid rgba(#808080, 0.92);
+}
+
+.filtro-cuenta {
+  position: fixed;
+  padding-left: 5%;
+  z-index: -1;
 }
