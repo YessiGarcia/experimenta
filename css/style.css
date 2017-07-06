@@ -62,4 +62,56 @@ footer {
   margin-top: -1%;
   padding-bottom: 1%; }
 
+.aside {
+  height: 500px; }
+
+.jumbotron {
+  background-color: white;
+  border: 2px solid #ff661b;
+  box-shadow: 0px 0px  10px #FF6530;
+  height: 618px;
+  font-family: 'Muli', sans-serif; }
+  .jumbotron label {
+    margin-top: 3.5%; }
+  .jumbotron select {
+    margin-top: 1%; }
+
+.btn.btn-color {
+  display: inline-block;
+  background-color: #7FC719;
+  color: white;
+  margin-top: 1%; }
+
+#dos {
+  margin-top: -2%;
+  margin-left: 8%; }
+
+div #carousel-example-generic.slide {
+  height: 300px; }
+
+.carousel-caption {
+  background-color: rgba(246, 50, 60, 0.5); }
+
+.carousel-inner .item img {
+  width: 100%;
+  height: 300px; }
+
+#nuevasExperiencias, #nuevosPaquetes, #comunicados {
+  margin-top: 50px;
+  box-shadow: 0px 0px  10px #25cad3;
+  padding: 1%; }
+
+h1 {
+  margin: 0;
+  padding: 0; }
+
+section img {
+  height: auto;
+  width: 100px; }
+
+.detalle {
+  background-image: url(../assets/img/fotos-stock/pantalla.png);
+  height: 600px;
+  width: auto; }
+
 /*# sourceMappingURL=style.css.map */
