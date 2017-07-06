@@ -4,11 +4,6 @@
 #navegador {
   box-shadow: 0px 5px 1px #F6323E; }
 
-.experimenta-logo {
-  width: 50%;
-  width: 50%;
-  margin-left: 10%; }
-
 #btn-iniciosesion {
   background-color: #94D500;
   /*width: 20%;*/ }
@@ -153,6 +148,11 @@ footer {
 
 .linea-gris {
   border: 1.5px solid rgba(128, 128, 128, 0.92); }
+
+.filtro-cuenta {
+  position: fixed;
+  padding-left: 5%;
+  z-index: -1; }
 
 .aside {
   margin-top: 4%;
