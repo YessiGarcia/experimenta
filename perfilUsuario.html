@@ -2,242 +2,245 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <title>Perfil</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Perfil</title>
 </head>
 
 <body>
 
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper white">
-        <a href="#!" class="brand-logo"><img src="assets/img/logo-experimenta/logoNaranja-menu.png" alt=""></a>
-        <ul class="right hide-on-med-and-down menu">
-          <li><a href="perfilUsuario.html" class="black-text">Perfil</a></li>
-          <li><a href="cuentas.html" class="black-text">Cuentas</a></li>
-          <li><a href="#" class="black-text">Balance Mensual</a></li>
-          <li><a href="#" class="black-text">Aclaracion</a></li>
-          <li><img src="assets/img/fotos-stock/image1.JPG" alt="" class="circle responsive-img"></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-
-  <section id="usuario">
-    <div class="container ">
-      <div class="row">
-        <div class="col m12 perfil">
-          <div class="row user">
-            <div class="col m2 offset-m1 img">
-              <img src="assets/img/fotos-stock/image1.JPG" alt="" class="img-perfil">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper white">
+                <a href="#!" class="brand-logo"><img src="assets/img/logo-experimenta/logoNaranja-menu.png" alt=""></a>
+                <ul class="right hide-on-med-and-down menu">
+                    <li><a href="perfilUsuario.html" class="black-text">Perfil</a></li>
+                    <li><a href="cuentas.html" class="black-text">Cuentas y Balance</a></li>
+                    <li><a href="#" class="black-text">Aclaracion</a></li>
+                    <li><img src="assets/img/fotos-stock/image1.JPG" alt="" class="circle responsive-img"></li>
+                </ul>
             </div>
-              <div class="col m8 ">
-                <h4>Angelica Velazquez</h4>
-                <h6>angeliquezeuqzalev@gmail.com</h6>
-            </div>
-          </div>
-        </div>
-      </div>
+        </nav>
     </div>
-  </section>
 
-  <section id="datos">
-    <div class="container">
-      <div class="row">
-        <div class="col m6 borde borde--azul">
-          <!--formulario-datos1-->
-          <div class="row formulario-datos">
-            <form class="col s12">
-              <h5>Datos Usuario</h5>
-              <div class="row">
-                <div class="input-field col s6">
-                  <input id="first_name" type="text" class="validate" required>
-                  <label for="first_name">First Name</label>
+    <section id="usuario">
+        <div class="container ">
+            <div class="row">
+                <div class="col m12 perfil">
+                    <div class="row user">
+                        <div class="col m2 offset-m1 img">
+                            <img src="assets/img/fotos-stock/image1.JPG" alt="" class="img-perfil">
+                        </div>
+                        <div class="col m8 ">
+                            <h4>Angelica Velazquez</h4>
+                            <h6>angeliquezeuqzalev@gmail.com</h6>
+                        </div>
+                    </div>
                 </div>
-                <div class="input-field col s6">
-                  <input id="last_name" type="text" class="validate">
-                  <label for="last_name">Last Name</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <input id="email" type="text" class="validate">
-                  <label for="email">Email</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <input id="telephone" type="password" class="validate">
-                  <label for="telephone">Phone</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s6">
-                  <input id="razon-social" type="text" class="validate">
-                  <label for="razon-social">Razon Social</label>
-                </div>
-                <div class="input-field col s6">
-                  <input id="rfc" type="text" class="validate">
-                  <label for="rfc">RFC</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col s12 right-align">
-                  <a class="btn btn-save  light-green accent-4">Salvar Cambios</a>
-                </div>
-              </div>
-            </form>
-          </div>
-          <!--fin formulario-datos1-->
-        </div>
-        <div class="col s5 offset-s1 borde borde--azul">
-          <!--formulario-datos2-->
-          <div class="row formulario-datos">
-            <form class="col s12">
-              <h5>Direccion Fiscal</h5>
-              <div class="row">
-                <div class="input-field col s12">
-                  <input id="calle" type="text" class="validate" required>
-                  <label for="calle">Calle</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s6">
-                  <input id="num-interior" type="text" class="validate">
-                  <label for="num-interior">Num. Interior</label>
-                </div>
-                <div class="input-field col s6">
-                  <input id="num-exterior" type="text" class="validate">
-                  <label for="num-exterior">Num. Exterior</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s">
-                  <input id="colonia" type="password" class="validate">
-                  <label for="colonia">Colonia</label>
-                </div>
-                <div class="input-field col s6">
-                  <input id="delegacion" type="text" class="validate">
-                  <label for="delegacion">Delegacion/Municipio</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s6">
-                  <input id="CP" type="text" class="validate">
-                  <label for="CP">Codigo Postal</label>
-                </div>
-                <div class="input-field col s6">
-                  <input id="ciudad" type="text" class="validate">
-                  <label for="ciudad">Ciudad</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col s12 right-align">
-                  <a class="btn btn-save  light-green accent-4">Salvar Cambios</a>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-        <!--fin formulario-datos2-->
-      </div>
-    </div>
-  </section>
-  <section id="pago">
-    <div class="container">
-      <div class="row">
-        <div class="col s12 borde borde--amarillo">
-          <h5 class="formulario-datos">Pago</h5>
-          <div class="row">
-            <div class="col s10 offset-s1">
-              <form action="#">
-                <p>
-                  <input name="group1" type="radio" id="test1" class="with-gap" checked="checked" />
-                  <label for="test1">Otra Forma de pago</label>
-                </p>
-                <p>
-                  <input name="group1" type="radio" id="test2" class="with-gap"/>
-                  <label for="test2"><a href="#" class=" btn-medium"><img src="assets/img/tarjeta_credito.png" alt="" class="img-tarjetas"></a></label>
-                </p>
-                <div id="info-tarjeta">
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input id="titular" type="text" class="validate">
-                    <label for="titular"> Titular *</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input id="tarjeta" type="password" class="validate">
-                    <label for="tarjeta">No. Tarjeta *</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s6">
-                    <input id="expiracionM" type="text" class="validate">
-                    <label for="expiracionM">Expiracion MM *</label>
-                  </div>
-                  <div class="input-field col s6">
-                    <input id="expiracionA" type="text" class="validate">
-                    <label for="expiracionA"> Expiracion AA *</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input id="CVV" type="text" class="validate">
-                    <label for="CVV"> CVV *</label>
-                  </div>
-                </div>
-              </form>
             </div>
-            </div>
-          </div>
-          </div>
-
-  </section>
-
-  <section id="contact">
-    <div class="">
-      <div class="row">
-        <div class="col s7">
-          <ul class="social">
-            <li class="social__icon"><a href="#" class="btn-large btn-floating light-blue darken-4"> <i class="social__icon--size fa fa-facebook white-text"></i></a>
-              <li class="social__icon"><a href="#" class="btn-large btn-floating blue lighten-1"> <i class="social__icon--size fa fa-twitter white-text"></i></a>
-                <li class="social__icon"><a href="#" class="btn-large btn-floating light-blue accent-3"> <i class="social__icon--size fa fa-linkedin white-text"></i></a>
-                  <li class="social__icon"><a href="#" class="btn-large btn-floating social__icon--color"> <i class="social__icon--size fa fa-instagram white-text"></i></a>
-                    <li class="social__icon"><a href="#" class="btn-large btn-floating red"> <i class="social__icon--size fa fa-youtube white-text"></i></a>
-                      <li class="social__icon"><a href="#" class="btn-large btn-floating  orange lighten-1"> <i class="social__icon--size fa fa-rss white-text"></i></a>
-          </ul>
         </div>
-        <div class="col s5 white-text newsletter">
-          <p>Inscribete a nuestro Newsletter</p>
-          <div class="row">
-            <div class="col s7">
-              <input type="text" placeholder="email">
+    </section>
+
+    <section id="datos">
+        <div class="container">
+            <div class="row">
+                <div class="col m6 borde borde--azul">
+                    <!--formulario-datos1-->
+                    <div class="row formulario-datos">
+                        <form class="col s12">
+                            <h5>Datos Usuario</h5>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="first_name" type="text" class="validate" required>
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="text" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="telephone" type="password" class="validate">
+                                    <label for="telephone">Phone</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="razon-social" type="text" class="validate">
+                                    <label for="razon-social">Razon Social</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="rfc" type="text" class="validate">
+                                    <label for="rfc">RFC</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 right-align">
+                                    <a class="btn btn-save  light-green accent-4">Salvar Cambios</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!--fin formulario-datos1-->
+                </div>
+                <div class="col s5 offset-s1 borde borde--azul">
+                    <!--formulario-datos2-->
+                    <div class="row formulario-datos">
+                        <form class="col s12">
+                            <h5>Direccion Fiscal</h5>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="calle" type="text" class="validate" required>
+                                    <label for="calle">Calle</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="num-interior" type="text" class="validate">
+                                    <label for="num-interior">Num. Interior</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="num-exterior" type="text" class="validate">
+                                    <label for="num-exterior">Num. Exterior</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s">
+                                    <input id="colonia" type="password" class="validate">
+                                    <label for="colonia">Colonia</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="delegacion" type="text" class="validate">
+                                    <label for="delegacion">Delegacion/Municipio</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="CP" type="text" class="validate">
+                                    <label for="CP">Codigo Postal</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="ciudad" type="text" class="validate">
+                                    <label for="ciudad">Ciudad</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 right-align">
+                                    <a class="btn btn-save  light-green accent-4">Salvar Cambios</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--fin formulario-datos2-->
             </div>
-            <div class="col s3">
-              <a class="btn btn-save  light-green accent-4">Suscribir</a>
-            </div>
-          </div>
-          <p> 5292 5707 / 01 55 5292-5707 - atencion@experimenta.com.mx</p>
         </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <small class="white-text">Copyright © 2004-, Experimenta de México, S.A. de C.V. Todos los derechos reservados.</small>
-  </footer>
+    </section>
+    <section id="pago">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 borde borde--amarillo">
+                    <h5 class="formulario-datos">Pago</h5>
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <form action="#">
+                                <p>
+                                    <input name="group1" type="radio" id="test1" class="with-gap" checked="checked" />
+                                    <label for="test1">Otra Forma de pago</label>
+                                </p>
+                                <p>
+                                    <input name="group1" type="radio" id="test2" class="with-gap" />
+                                    <label for="test2"><a href="#" class=" btn-medium"><img src="assets/img/tarjeta_credito.png" alt="" class="img-tarjetas"></a></label>
+                                </p>
+                                <div id="info-tarjeta">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="titular" type="text" class="validate">
+                                            <label for="titular"> Titular *</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="tarjeta" type="password" class="validate">
+                                            <label for="tarjeta">No. Tarjeta *</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s6">
+                                            <input id="expiracionM" type="text" class="validate">
+                                            <label for="expiracionM">Expiracion MM *</label>
+                                        </div>
+                                        <div class="input-field col s6">
+                                            <input id="expiracionA" type="text" class="validate">
+                                            <label for="expiracionA"> Expiracion AA *</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="CVV" type="text" class="validate">
+                                            <label for="CVV"> CVV *</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s12 right-align">
+                                            <a class="btn btn-save  light-green accent-4">Salvar Cambios</a>
+                                        </div>
+                                    </div>
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section id="contact">
+        <div class="">
+            <div class="row">
+                <div class="col s7">
+                    <ul class="social">
+                        <li class="social__icon"><a href="#" class="btn-large btn-floating light-blue darken-4"> <i class="social__icon--size fa fa-facebook white-text"></i></a></li>
+                        <li class="social__icon"><a href="#" class="btn-large btn-floating blue lighten-1"> <i class="social__icon--size fa fa-twitter white-text"></i></a></li>
+                        <li class="social__icon"><a href="#" class="btn-large btn-floating light-blue accent-3"> <i class="social__icon--size fa fa-linkedin white-text"></i></a></li>
+                        <li class="social__icon"><a href="#" class="btn-large btn-floating social__icon--color"> <i class="social__icon--size fa fa-instagram white-text"></i></a></li>
+                        <li class="social__icon"><a href="#" class="btn-large btn-floating red"> <i class="social__icon--size fa fa-youtube white-text"></i></a></li>
+                        <li class="social__icon"><a href="#" class="btn-large btn-floating  orange lighten-1"> <i class="social__icon--size fa fa-rss white-text"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col s5 white-text newsletter">
+                    <p>Inscribete a nuestro Newsletter</p>
+                    <div class="row">
+                        <div class="col s7">
+                            <input type="text" placeholder="email">
+                        </div>
+                        <div class="col s3">
+                            <a class="btn btn-save  light-green accent-4">Suscribir</a>
+                        </div>
+                    </div>
+                    <p> 5292 5707 / 01 55 5292-5707 - atencion@experimenta.com.mx</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <small class="white-text">Copyright © 2004-, Experimenta de México, S.A. de C.V. Todos los derechos reservados.</small>
+    </footer>
 
 
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 
 </html>

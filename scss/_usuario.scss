@@ -1,7 +1,6 @@
 nav {
   min-height: 100px;
   line-height: 30px;
-
 }
 
 .foto-perfil {
@@ -107,4 +106,29 @@ footer {
   text-align: center;
   margin-top: -1%;
   padding-bottom: 1%;
+}
+
+
+#cuentas {
+  margin-top: 5%;
+
+  .cuentas-datos {
+    background-color: #FF6530;
+  }
+
+  .img-experiencia {
+    width: 100%;
+  }
+}
+
+.titulo-cuentas, .titulo-experiencia {
+  margin-left: 5%;
+}
+
+.linea-naranja {
+  border: 2px solid #FF6530;
+}
+
+.linea-gris {
+  border: 1.5px solid rgba(#808080, 0.92);
 }
