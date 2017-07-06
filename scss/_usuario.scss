@@ -1,7 +1,6 @@
 nav {
   min-height: 100px;
   line-height: 30px;
-
 }
 
 .foto-perfil {
@@ -25,16 +24,17 @@ img.responsive-img {
 
 #usuario{
     margin-top: 5%;
+    .user {
+      margin-top: 2%;
+    }
   .perfil {
     box-shadow: 0px 0px  10px #FF6530;
     text-align: center;
-    padding-bottom: 5%;
 
 
     .img-perfil {
-      margin: 10%;
-      width: 150px;
-      height: 150px;
+      width: 100px;
+      height: 100px;
       border-radius: 100%;
       border: 5px solid #FF6530;
     }
@@ -45,16 +45,34 @@ img.responsive-img {
 #datos {
     margin: 4% 0;
 }
+
+.borde--azul {
+  box-shadow: 0px 0px  10px  #25cad3;
+}
+
+.borde--amarillo {
+  box-shadow: 0px 0px  10px  #ffb718;
+}
 .borde {
-    box-shadow: 0px 0px  10px  #25cad3;
 
     .formulario-datos {
-      padding: 5% ;
+      padding: 2% ;
 
       .btn-save {
         border-radius: 20px;
       }
     }
+}
+
+
+
+.img-tarjetas {
+  width: 20%;
+  margin-bottom: 5%;
+}
+
+#info-tarjeta {
+  display: none;
 }
 
 #contact {
@@ -88,4 +106,29 @@ footer {
   text-align: center;
   margin-top: -1%;
   padding-bottom: 1%;
+}
+
+
+#cuentas {
+  margin-top: 5%;
+
+  .cuentas-datos {
+    background-color: #FF6530;
+  }
+
+  .img-experiencia {
+    width: 100%;
+  }
+}
+
+.titulo-cuentas, .titulo-experiencia {
+  margin-left: 5%;
+}
+
+.linea-naranja {
+  border: 2px solid #FF6530;
+}
+
+.linea-gris {
+  border: 1.5px solid rgba(#808080, 0.92);
 }

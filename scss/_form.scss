@@ -1,36 +1,45 @@
 
 .aside{
+	margin-top:4%;
 	height:500px;
 }
 .jumbotron{
-	background-color: white;
-	border:2px solid #ff661b;
+	margin-top:8%;
+	background-color: $blanco;
+	border:2px solid $naranja;
 	box-shadow: 0px 0px  10px #FF6530;
 	height:618px;
-	font-family:'Muli', sans-serif;
+	font-family: $texto;
 	label{
-		margin-top:3.5%;
+		margin-top:2.5%;
+	}
+	input{
+		margin-top:-2%;
 	}
 	select{
 		margin-top:1%;
 	}
+
 }
 .btn.btn-color{
 	display:inline-block;
-	background-color:#7FC719;
+	background-color:$verde-b;
 	color:white;
 	margin-top:1%;
 	
 }
 #dos{
 		margin-top:-2%;
-		margin-left:8%;
+		margin-left:16%;
 }
 div #carousel-example-generic.slide{
 	height:300px;
 }
+div #carousel.slide{
+	height:300px;
+}
 .carousel-caption{
-	background-color:rgba(246, 50, 60,.5);
+	background-color:rgba($rosa,.5);
 }
 .carousel-inner{
 	.item{
