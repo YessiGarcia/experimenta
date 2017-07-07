@@ -1,4 +1,3 @@
-
 #nuevasExperiencias, #nuevosPaquetes, #comunicados{
 	margin-top: 50px;
 	box-shadow: 0px 0px  10px #25cad3;
@@ -8,9 +7,9 @@ h1{
 	margin: 0;
 	padding: 0;
 }
-section img{
+#nuevasExperiencias img, #nuevosPaquetes img, #comunicados img{
 	height: auto; 
-	width: 100px;
+	width: 250px;
 }
 #detalle{
 	background-image: url(../assets/img/fotos-stock/screencapture.png);
@@ -18,4 +17,15 @@ section img{
 	background-repeat: no-repeat;	
 	margin-top: 50px; 
 }
+.carousel{
+	margin-top:70px !important;
+	height:160px !important;
+}
 
+#extra1, #extra2, #extra3{
+	border: none;
+}
+
+#incluye, #dura, #saber{
+	display: none;
+}

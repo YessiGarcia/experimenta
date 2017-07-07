@@ -1,3 +1,7 @@
+* {
+  font-family: $texto;
+}
+
 nav {
   min-height: 100px;
   line-height: 30px;
@@ -13,6 +17,11 @@ nav {
   padding-right: 5%;
   margin-left: 5%;
   margin-top: 2%;
+}
+
+.btn-menu:hover {
+  background: $naranja;
+  color: $blanco;
 }
 
 
