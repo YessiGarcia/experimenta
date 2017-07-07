@@ -1,4 +1,6 @@
-
+*{
+	font-family: $texto;
+}
 .aside{
 	margin-top:4%;
 	height:500px;
@@ -26,7 +28,7 @@
 	background-color:$verde-b;
 	color:white;
 	top:90%;
-	
+
 }
 #dos{
 	margin-top:-2%;

@@ -58,6 +58,9 @@ footer {
   margin-top: -1%;
   padding-bottom: 1%; }
 
+* {
+  font-family: "Muli", sans-serif; }
+
 nav {
   min-height: 100px;
   line-height: 30px; }
@@ -71,6 +74,10 @@ nav {
   padding-right: 5%;
   margin-left: 5%;
   margin-top: 2%; }
+
+.btn-menu:hover {
+  background: #ff661b;
+  color: white; }
 
 img.responsive-img {
   width: 60px !important;
@@ -148,6 +155,14 @@ footer {
 
 .linea-gris {
   border: 1.5px solid rgba(128, 128, 128, 0.92); }
+
+.filtro-cuenta {
+  position: fixed;
+  padding-left: 5%;
+  z-index: -1; }
+
+* {
+  font-family: "Muli", sans-serif; }
 
 .aside {
   margin-top: 4%;
@@ -228,14 +243,24 @@ h1 {
   margin: 0;
   padding: 0; }
 
-section img {
+#nuevasExperiencias img, #nuevosPaquetes img, #comunicados img {
   height: auto;
-  width: 100px; }
+  width: 250px; }
 
 #detalle {
   background-image: url(../assets/img/fotos-stock/screencapture.png);
   height: 1600px;
   background-repeat: no-repeat;
   margin-top: 50px; }
+
+.carousel {
+  margin-top: 70px !important;
+  height: 160px !important; }
+
+#extra1, #extra2, #extra3 {
+  border: none; }
+
+#incluye, #dura, #saber {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
