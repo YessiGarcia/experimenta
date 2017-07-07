@@ -149,6 +149,11 @@ footer {
 .linea-gris {
   border: 1.5px solid rgba(128, 128, 128, 0.92); }
 
+.filtro-cuenta {
+  position: fixed;
+  padding-left: 5%;
+  z-index: -1; }
+
 .aside {
   margin-top: 4%;
   height: 500px; }
