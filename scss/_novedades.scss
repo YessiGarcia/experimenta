@@ -11,7 +11,7 @@ h1{
 	height: auto; 
 	width: 250px;
 }
-#detalle{
+#principal{
 	background-image: url(../assets/img/fotos-stock/screencapture.png);
 	height: 1600px;
 	background-repeat: no-repeat;	
@@ -29,3 +29,12 @@ h1{
 #incluye, #dura, #saber{
 	display: none;
 }
+
+#precio_detalle{
+	font-size: 40px;
+	color: $naranja;
+	margin: 0;
+	padding: 0;
+}
+
+
