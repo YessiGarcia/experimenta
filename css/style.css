@@ -4,11 +4,6 @@
 #navegador {
   box-shadow: 0px 5px 1px #F6323E; }
 
-.experimenta-logo {
-  width: 50%;
-  width: 50%;
-  margin-left: 10%; }
-
 #btn-iniciosesion {
   background-color: #94D500;
   /*width: 20%;*/ }
@@ -138,12 +133,6 @@ footer {
   margin-top: -1%;
   padding-bottom: 1%; }
 
-
-.aside {
-  height: 500px; }
-
-.jumbotron {
-
 #cuentas {
   margin-top: 5%; }
   #cuentas .cuentas-datos {
@@ -166,28 +155,21 @@ footer {
 
 .jumbotron {
   margin-top: 8%;
-
   background-color: white;
   border: 2px solid #ff661b;
   box-shadow: 0px 0px  10px #FF6530;
   height: 618px;
-
-  font-family: 'Muli', sans-serif; }
-  .jumbotron label {
-    margin-top: 3.5%; }
-
   font-family: "Muli", sans-serif; }
   .jumbotron label {
     margin-top: 2.5%; }
   .jumbotron input {
     margin-top: -2%; }
-
   .jumbotron select {
     margin-top: 1%; }
 
 .btn.btn-color {
   display: inline-block;
-  background-color: #7FC719
+  background-color: #7fc719;
   color: white;
   margin-top: 1%; }
 
@@ -195,13 +177,8 @@ footer {
   margin-top: -2%;
   margin-left: 16%; }
 
-
 div #carousel-example-generic.slide {
   height: 300px; }
-
-
-.carousel-caption {
-  background-color: rgba(246, 50, 60, 0.5); }
 
 div #carousel.slide {
   height: 300px; }
@@ -222,9 +199,9 @@ h1 {
   margin: 0;
   padding: 0; }
 
-section img {
+#nuevasExperiencias img, #nuevosPaquetes img, #comunicados img {
   height: auto;
-  width: 100px; }
+  width: 250px; }
 
 #detalle {
   background-image: url(../assets/img/fotos-stock/screencapture.png);
@@ -232,5 +209,14 @@ section img {
   background-repeat: no-repeat;
   margin-top: 50px; }
 
+.carousel {
+  margin-top: 70px !important;
+  height: 160px !important; }
+
+#extra1, #extra2, #extra3 {
+  border: none; }
+
+#incluye, #dura, #saber {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
